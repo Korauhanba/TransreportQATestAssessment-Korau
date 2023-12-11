@@ -1,0 +1,3 @@
+INFO    2023-12-11 22:15:28,047 [main] com.fasterxml.jackson.databind.deser.Deserializers$Base  - Config properties loaded!
+INFO    2023-12-11 22:15:30,576 [main] com.fasterxml.jackson.databind.deser.Deserializers$Base  - Launching Chrome !!
+INFO    2023-12-11 22:15:32,563 [main] com.fasterxml.jackson.databind.deser.Deserializers$Base  - Test execution completed !!

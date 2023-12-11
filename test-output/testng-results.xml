@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-11T22:14:51 GMT" name="Suite" finished-at="2023-12-11T22:15:32 GMT" duration-ms="41463">
+    <groups>
+    </groups>
+    <test started-at="2023-12-11T22:14:51 GMT" name="Scenario1_SuccessfulLoginTest" finished-at="2023-12-11T22:15:18 GMT" duration-ms="27425">
+      <class name="testcases.Scenario1_SuccessfulLoginTest">
+        <test-method signature="loginWorkingCredentials(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.Scenario1_SuccessfulLoginTest@32232e55]" started-at="2023-12-11T22:14:51 GMT" name="loginWorkingCredentials" data-provider="dp1" finished-at="2023-12-11T22:14:57 GMT" duration-ms="5859" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Products]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWorkingCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.Scenario1_SuccessfulLoginTest@32232e55]" started-at="2023-12-11T22:14:57 GMT" name="tearDown" finished-at="2023-12-11T22:14:57 GMT" duration-ms="296" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="loginWorkingCredentials(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.Scenario1_SuccessfulLoginTest@32232e55]" started-at="2023-12-11T22:14:57 GMT" name="loginWorkingCredentials" data-provider="dp1" finished-at="2023-12-11T22:15:01 GMT" duration-ms="3780" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[problem_user]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Products]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWorkingCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.Scenario1_SuccessfulLoginTest@32232e55]" started-at="2023-12-11T22:15:01 GMT" name="tearDown" finished-at="2023-12-11T22:15:01 GMT" duration-ms="233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="loginWorkingCredentials(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.Scenario1_SuccessfulLoginTest@32232e55]" started-at="2023-12-11T22:15:01 GMT" name="loginWorkingCredentials" data-provider="dp1" finished-at="2023-12-11T22:15:10 GMT" duration-ms="8778" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[performance_glitch_user]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Products]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWorkingCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.Scenario1_SuccessfulLoginTest@32232e55]" started-at="2023-12-11T22:15:10 GMT" name="tearDown" finished-at="2023-12-11T22:15:10 GMT" duration-ms="256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="loginWorkingCredentials(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.Scenario1_SuccessfulLoginTest@32232e55]" started-at="2023-12-11T22:15:10 GMT" name="loginWorkingCredentials" data-provider="dp1" finished-at="2023-12-11T22:15:14 GMT" duration-ms="3760" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[error_user]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Products]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWorkingCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.Scenario1_SuccessfulLoginTest@32232e55]" started-at="2023-12-11T22:15:14 GMT" name="tearDown" finished-at="2023-12-11T22:15:14 GMT" duration-ms="241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="loginWorkingCredentials(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.Scenario1_SuccessfulLoginTest@32232e55]" started-at="2023-12-11T22:15:14 GMT" name="loginWorkingCredentials" data-provider="dp1" finished-at="2023-12-11T22:15:18 GMT" duration-ms="3767" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[visual_user]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Products]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWorkingCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.Scenario1_SuccessfulLoginTest@32232e55]" started-at="2023-12-11T22:15:18 GMT" name="tearDown" finished-at="2023-12-11T22:15:18 GMT" duration-ms="287" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.Scenario1_SuccessfulLoginTest -->
+    </test> <!-- Scenario1_SuccessfulLoginTest -->
+    <test started-at="2023-12-11T22:15:18 GMT" name="Scenario1_LoginTestWithInvalidCredentials" finished-at="2023-12-11T22:15:23 GMT" duration-ms="4115">
+      <class name="testcases.Scenario1_LoginTestWithInvalidCredentials">
+        <test-method signature="loginNonWorkingCredentials(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.Scenario1_LoginTestWithInvalidCredentials@6ea1bcdc]" started-at="2023-12-11T22:15:19 GMT" name="loginNonWorkingCredentials" data-provider="dp1" finished-at="2023-12-11T22:15:22 GMT" duration-ms="3813" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[locked_out_user]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Swag Labs]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Epic sadface: Sorry, this user has been locked out.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginNonWorkingCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.Scenario1_LoginTestWithInvalidCredentials@6ea1bcdc]" started-at="2023-12-11T22:15:22 GMT" name="tearDown" finished-at="2023-12-11T22:15:23 GMT" duration-ms="252" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.Scenario1_LoginTestWithInvalidCredentials -->
+    </test> <!-- Scenario1_LoginTestWithInvalidCredentials -->
+    <test started-at="2023-12-11T22:15:23 GMT" name="Scenario2_TestNoOfItemsAndSort" finished-at="2023-12-11T22:15:27 GMT" duration-ms="4795">
+      <class name="testcases.Scenario2_TestNoOfItemsAndSort">
+        <test-method signature="itemsCountAndSorting(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.Scenario2_TestNoOfItemsAndSort@2a2da905]" started-at="2023-12-11T22:15:23 GMT" name="itemsCountAndSorting" data-provider="dp1" finished-at="2023-12-11T22:15:27 GMT" duration-ms="4509" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Products]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Price (low to high)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- itemsCountAndSorting -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.Scenario2_TestNoOfItemsAndSort@2a2da905]" started-at="2023-12-11T22:15:27 GMT" name="tearDown" finished-at="2023-12-11T22:15:27 GMT" duration-ms="242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.Scenario2_TestNoOfItemsAndSort -->
+    </test> <!-- Scenario2_TestNoOfItemsAndSort -->
+    <test started-at="2023-12-11T22:15:27 GMT" name="Scenario3_TestAddItemsToBasket" finished-at="2023-12-11T22:15:32 GMT" duration-ms="4567">
+      <class name="testcases.Scenario3_TestAddItemsToBasket">
+        <test-method signature="addItemsToBasket(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.Scenario3_TestAddItemsToBasket@29876704]" started-at="2023-12-11T22:15:28 GMT" name="addItemsToBasket" data-provider="dp1" finished-at="2023-12-11T22:15:32 GMT" duration-ms="4288" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addItemsToBasket -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.Scenario3_TestAddItemsToBasket@29876704]" started-at="2023-12-11T22:15:32 GMT" name="tearDown" finished-at="2023-12-11T22:15:32 GMT" duration-ms="230" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.Scenario3_TestAddItemsToBasket -->
+    </test> <!-- Scenario3_TestAddItemsToBasket -->
+  </suite> <!-- Suite -->
+</testng-results>

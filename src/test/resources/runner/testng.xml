@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+	<listeners>
+		<listener class-name="extentlisteners.ExtentListeners"></listener>
+	</listeners>
+
+	<!-- Scenario 1 – Navigate to the URL and login with the usernames/profiles in the ‘Accepted usernames’ section. 
+	If a user profile can login, create an assertion to verify this. If the user is unable to login, create an assertion 
+	to verify this. !-->
+	<test name="Scenario1_SuccessfulLoginTest">
+		<classes>
+			<class name="testcases.Scenario1_SuccessfulLoginTest" />
+		</classes>
+	</test>
+
+	<test name="Scenario1_LoginTestWithInvalidCredentials">
+		<classes>
+			<class name="testcases.Scenario1_LoginTestWithInvalidCredentials" />
+		</classes>
+	</test>
+	
+	<!-- Scenario 2 – Login to the website and validate the number of items on the page. 
+	Click on the dropdown and select Price (low to high), assert that the first item has the lowest price 
+	and that the last item has the highest price. !-->
+	
+	<test name="Scenario2_TestNoOfItemsAndSort">
+		<classes>
+			<class name="testcases.Scenario2_TestNoOfItemsAndSort" />
+		</classes>
+	</test>
+
+	<!-- Scenario 3 – Add 3 items to the basket and assert the right number of items in the basket.
+	Remove one item and assert that the item has been removed and that the number of the items in the basket has changed. !-->
+
+	<test name="Scenario3_TestAddItemsToBasket">
+		<classes>
+			<class name="testcases.Scenario3_TestAddItemsToBasket" />
+		</classes>
+	</test>
+
+	<!-- Test -->
+</suite> <!--
+Suite -->
